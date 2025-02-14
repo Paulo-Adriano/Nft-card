@@ -94,7 +94,29 @@ body {
     border-radius: 5px;
 }
 
-.avatar {
-    width: 30px;
+.nft-card .creator {
+    display: flex;
+    gap: 20px;
+}
+
+.nft-card .creator p {
+    font-size: 16px;
+
+    letter-spacing: 1px;
+
+    padding-top: 5px;
+    color: hsl(215, 51%, 70%);
+}
+
+.nft-card .creator p span {
+    letter-spacing: 0;
+    color: white;
+}
+
+.creator .avatar {
+    width: 32px;
+    
+    border-radius: 50%;
+    border: 1px solid white;
 }
 
