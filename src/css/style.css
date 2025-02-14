@@ -68,14 +68,20 @@ body {
 
 .nft-card .informacoes .day-left {
     color: hsla(215, 37%, 79%, 0.705);
+    display: flex;
+    justify-content: center;
 }
 
 .nft-card .informacoes .day-left::before {
     content: '';
     display: inline-block;
     background: url('../images/icon-clock.svg') center no-repeat;
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
+
+    padding-top: 4px;
+
+    margin-right: 7px;
 }
 
 .image-nft {
