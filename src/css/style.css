@@ -1,5 +1,6 @@
 body {
     background-color: var(--neutral-dark);
+    font-family: "Outfit", serif;
 }
 
 .main {
@@ -19,6 +20,62 @@ body {
     border-radius: 15px;
 
     padding: 24px;
+}
+
+.nft-card .titulo {
+    font-size: 22px;
+    font-weight: 800;
+
+    margin: 20px 0;
+
+    color: #ffffff;
+}
+
+.nft-card .about {
+    font-size: 18px;
+    
+    line-height: 25px;
+
+    color: hsla(215, 37%, 79%, 0.705);
+
+    margin-bottom: 24px;
+}
+
+.nft-card .informacoes {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.nft-card .informacoes .value {
+    color: hsl(178, 100%, 50%);
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.nft-card .informacoes .value::before {
+    content: '';
+    display: inline-block;
+    background: url('../images/icon-ethereum.svg') center no-repeat;
+    width: 15px;
+    height: 17px;
+
+    
+    margin-right: 5px;
+}
+
+.nft-card .informacoes .day-left {
+    color: hsla(215, 37%, 79%, 0.705);
+}
+
+.nft-card .informacoes .day-left::before {
+    content: '';
+    display: inline-block;
+    background: url('../images/icon-clock.svg') center no-repeat;
+    width: 15px;
+    height: 15px;
 }
 
 .image-nft {
