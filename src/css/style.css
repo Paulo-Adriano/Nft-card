@@ -22,6 +22,19 @@ body {
     padding: 24px;
 }
 
+.nft-card .image-link .image-nft {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.nft-card .image-link::before {
+    content: '';
+    background-color: cyan;
+    width: 302px;
+    height: 302px;
+    position: absolute;
+}
+
 .nft-card .titulo {
     font-size: 22px;
     font-weight: 800;
@@ -89,10 +102,7 @@ body {
     margin-right: 7px;
 }
 
-.image-nft {
-    width: 100%;
-    border-radius: 5px;
-}
+
 
 .nft-card .creator {
     display: flex;
