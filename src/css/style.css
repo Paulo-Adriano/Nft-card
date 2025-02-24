@@ -75,6 +75,10 @@ body {
     color: #ffffff;
 }
 
+.nft-card .titulo:hover {
+    color: hsl(178, 100%, 50%);
+}
+
 .nft-card .about {
     font-size: 18px;
     
@@ -152,6 +156,11 @@ body {
 .nft-card .creator p span {
     letter-spacing: 0;
     color: white;
+}
+
+
+.creator .name:hover{
+    color: hsl(178, 100%, 50%);
 }
 
 .creator .avatar {
