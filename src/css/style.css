@@ -16,10 +16,12 @@ body {
     max-width: 350px;
     height: 600px;
 
+    position: relative;
+
     
     border-radius: 15px;
 
-    padding: 24px;
+    padding: 25px;
 }
 
 .nft-card .image-link .image-nft {
@@ -49,13 +51,17 @@ body {
     background: url('../images/icon-view.svg') no-repeat center;
     
     position: absolute;
-    left: 48%;
-    top: 35%;
+
+    left: 50%;
+    top: 25%;
+
+    transform: translate(-50%, 0);
+    
 }
 
 .nft-card .image-link:hover::before,.nft-card .image-link:hover::after{
     display: block;
-    
+
 }
 
 
